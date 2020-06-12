@@ -1,6 +1,6 @@
 # Available settings to override the default behavior for each plugin are
 # commented out. The only required setting if you want to use a plugin is
-# enabled = true
+enabled = true
 
 [ tool.beeblebrox]
 
@@ -23,7 +23,7 @@
   [ tool.beeblebrox.towncrier_changelog ]
 
     enabled = true
-    verify_pr_number = True
+    verify_pr_number = true
     changelog_skip_label = "No Changelog required"
     # changelog_exists = ""
     changelog_missing = "Our Lord Apollo demands that you tell him about the changes that you propose! Please add a Changelog!"
