@@ -2,33 +2,33 @@
 # commented out. The only required setting if you want to use a plugin is
 # enabled = true
 
-[ tool.<your-bot-name>]
+[ tool.beeblebrox]
 
-  [ tool.<your-bot-name>.circleci_artifacts ]
+  [ tool.beeblebrox.circleci_artifacts ]
 
     # enabled = true
 
-  [ tool.<your-bot-name>.milestones ]
+  [ tool.beeblebrox.milestones ]
 
     # enabled = true
     # missing_message = ""
     # present_message = ""
 
-  [ tool.<your-bot-name>.pull_requests ]
+  [ tool.beeblebrox.pull_requests ]
 
     # enabled = true
     # skip_labels = []
     # skip_fails = true
 
-  [ tool.<your-bot-name>.towncrier_changelog ]
+  [ tool.beeblebrox.towncrier_changelog ]
 
-    # enabled = true
-    # verify_pr_number = True
-    # changelog_skip_label = ""
+    enabled = true
+    verify_pr_number = True
+    # changelog_skip_label = "No Changelog required"
     # changelog_exists = ""
-    # changelog_missing = ""
+    changelog_missing = "Our Lord Apollo demands that you tell him about the changes that you propose! Please add a Changelog!"
     # number_correct = ""
-    # number_incorrect = ""
+    number_incorrect = "Our Lord Apollo demands that your Changelog entry be numbered the same as your PR number!"
     # type_correct = ""
     # type_incorrect = ""
     # help_url = ""

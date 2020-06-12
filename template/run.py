@@ -3,7 +3,7 @@ import os
 from baldrick import create_app
 
 # Configure the App
-app = create_app('<your-bot-name>')
+app = create_app('beeblebrox')
 
 # Import plugins
 import baldrick.plugins.circleci_artifacts
